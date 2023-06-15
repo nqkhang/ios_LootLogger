@@ -8,5 +8,5 @@
 import UIKit
 
 class ItemViewController: UITableViewController {
-
+  var itemStore: ItemStore!
 }

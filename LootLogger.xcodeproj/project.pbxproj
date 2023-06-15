@@ -17,6 +17,7 @@
 		B7D539FA2A39F1360015BAD1 /* LootLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D539F92A39F1360015BAD1 /* LootLoggerTests.swift */; };
 		B7D53A042A39F1360015BAD1 /* LootLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D53A032A39F1360015BAD1 /* LootLoggerUITests.swift */; };
 		B7D53A062A39F1360015BAD1 /* LootLoggerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D53A052A39F1360015BAD1 /* LootLoggerUITestsLaunchTests.swift */; };
+		B7F2F8072A3B043B00516433 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F2F8062A3B043B00516433 /* ItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B7D539FF2A39F1360015BAD1 /* LootLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LootLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D53A032A39F1360015BAD1 /* LootLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootLoggerUITests.swift; sourceTree = "<group>"; };
 		B7D53A052A39F1360015BAD1 /* LootLoggerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootLoggerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7F2F8062A3B043B00516433 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B7D539E82A39F1340015BAD1 /* Main.storyboard */,
 				B72726CB2A3A0BEA00130BD0 /* Item.swift */,
 				B719A7F52A3A085000DE242A /* ItemsViewController.swift */,
+				B7F2F8062A3B043B00516433 /* ItemStore.swift */,
 				B7D539EB2A39F1360015BAD1 /* Assets.xcassets */,
 				B7D539ED2A39F1360015BAD1 /* LaunchScreen.storyboard */,
 				B7D539F02A39F1360015BAD1 /* Info.plist */,
@@ -264,6 +267,7 @@
 				B72726CC2A3A0BEA00130BD0 /* Item.swift in Sources */,
 				B719A7F62A3A085000DE242A /* ItemsViewController.swift in Sources */,
 				B7D539E32A39F1340015BAD1 /* AppDelegate.swift in Sources */,
+				B7F2F8072A3B043B00516433 /* ItemStore.swift in Sources */,
 				B7D539E52A39F1340015BAD1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
