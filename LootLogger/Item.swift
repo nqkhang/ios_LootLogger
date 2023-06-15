@@ -22,14 +22,14 @@ class Item {
 
   convenience init(random: Bool = false) {
     if random {
-      let adjectives = ["Fluffy", "Rusty", "Shiny"]
-      let nouns = ["Bear", "Spork", "Mac"]
+      let adjectives = ["Happy", "Beautiful", "Intelligent", "Courageous", "Creative", "Reliable", "Exciting", "Serene", "Ambitious", "Playful"]
+      let nouns = ["Cat", "Tree", "Car", "Book", "Sun", "Ocean", "Mountain", "Phone", "Friend", "Coffee"]
       
       let randomAdjective = adjectives.randomElement()!
       let randomNoun = nouns.randomElement()!
 
       let randomName = "\(randomAdjective) \(randomNoun)"
-      let randomValue = Int.random(in: 0..<100)
+      let randomValue = Int.random(in: 10..<100)
       
       let randomSerialNumber = UUID().uuidString.components(separatedBy: "-").first!
       self.init(name: randomName,
