@@ -19,20 +19,32 @@
                             <rect key="frame" x="0.0" y="0.0" width="393" height="60"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnn-Tx-duk">
-                                    <rect key="frame" x="11" y="13" width="54" height="35"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnn-Tx-duk">
+                                    <rect key="frame" x="8" y="12.666666666666664" width="184.66666666666666" height="35"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="Edit"/>
+                                    <connections>
+                                        <action selector="toggleEditingMode:" destination="Hby-ex-GF0" eventType="touchUpInside" id="wP4-eI-vre"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wxu-yz-eXa">
-                                    <rect key="frame" x="328" y="13" width="55" height="35"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wxu-yz-eXa">
+                                    <rect key="frame" x="200.66666666666663" y="12.666666666666664" width="184.33333333333337" height="35"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="Add"/>
+                                    <connections>
+                                        <action selector="addNewItem:" destination="Hby-ex-GF0" eventType="touchUpInside" id="Geq-xw-aPq"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="dnn-Tx-duk" firstAttribute="centerY" secondItem="XS2-7a-Ekc" secondAttribute="centerY" id="1Cv-Ra-jed"/>
+                                <constraint firstItem="Wxu-yz-eXa" firstAttribute="centerY" secondItem="XS2-7a-Ekc" secondAttribute="centerY" id="FuR-dA-Kdc"/>
+                                <constraint firstItem="dnn-Tx-duk" firstAttribute="leading" secondItem="XS2-7a-Ekc" secondAttribute="leading" constant="8" id="aF8-Nf-O6e"/>
+                                <constraint firstAttribute="trailing" secondItem="Wxu-yz-eXa" secondAttribute="trailing" constant="8" id="kE1-EJ-1kl"/>
+                                <constraint firstItem="Wxu-yz-eXa" firstAttribute="leading" secondItem="dnn-Tx-duk" secondAttribute="trailing" constant="8" id="l5H-Lr-jG6"/>
+                                <constraint firstItem="Wxu-yz-eXa" firstAttribute="width" secondItem="dnn-Tx-duk" secondAttribute="width" id="zli-Ei-J9w"/>
+                            </constraints>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="nMK-ua-jVe" detailTextLabel="PLH-Pq-W9S" style="IBUITableViewCellStyleValue1" id="8pn-PS-cvd">
