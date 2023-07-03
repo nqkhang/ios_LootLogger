@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B719A7F62A3A085000DE242A /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719A7F52A3A085000DE242A /* ItemsViewController.swift */; };
 		B72726CC2A3A0BEA00130BD0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72726CB2A3A0BEA00130BD0 /* Item.swift */; };
+		B790BD322A4B21D9000ED931 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B790BD312A4B21D8000ED931 /* ItemCell.swift */; };
 		B7D539E32A39F1340015BAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D539E22A39F1340015BAD1 /* AppDelegate.swift */; };
 		B7D539E52A39F1340015BAD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D539E42A39F1340015BAD1 /* SceneDelegate.swift */; };
 		B7D539EA2A39F1340015BAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D539E82A39F1340015BAD1 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		B719A7F52A3A085000DE242A /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		B72726CB2A3A0BEA00130BD0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B790BD312A4B21D8000ED931 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		B7D539DF2A39F1340015BAD1 /* LootLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LootLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D539E22A39F1340015BAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7D539E42A39F1340015BAD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		B7D539D62A39F1340015BAD1 = {
 			isa = PBXGroup;
 			children = (
+				B790BD312A4B21D8000ED931 /* ItemCell.swift */,
 				B7D539E12A39F1340015BAD1 /* LootLogger */,
 				B7D539F82A39F1360015BAD1 /* LootLoggerTests */,
 				B7D53A022A39F1360015BAD1 /* LootLoggerUITests */,
@@ -266,6 +269,7 @@
 			files = (
 				B72726CC2A3A0BEA00130BD0 /* Item.swift in Sources */,
 				B719A7F62A3A085000DE242A /* ItemsViewController.swift in Sources */,
+				B790BD322A4B21D9000ED931 /* ItemCell.swift in Sources */,
 				B7D539E32A39F1340015BAD1 /* AppDelegate.swift in Sources */,
 				B7F2F8072A3B043B00516433 /* ItemStore.swift in Sources */,
 				B7D539E52A39F1340015BAD1 /* SceneDelegate.swift in Sources */,
